@@ -1,4 +1,4 @@
-namespace test;
+namespace Test;
 
 public class WordFrequency:IWordFrequency{
     public string word{

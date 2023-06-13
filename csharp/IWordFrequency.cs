@@ -1,6 +1,7 @@
 // Implement part of a text processing library
 
-namespace Test{
+namespace Test
+{
     public interface IWordFrequency{
         string Word { 
             get;

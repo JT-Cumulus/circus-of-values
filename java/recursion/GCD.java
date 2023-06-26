@@ -1,3 +1,4 @@
+package recursion;
 public class GCD {
     public int gcd_recursion(int a, int b) {
 

@@ -1,3 +1,4 @@
+package leetcode;
 import java.util.Hashtable;
 
 public class Duplicates {

@@ -1,3 +1,4 @@
+package backtracking;
 public class KnightTour {
     
     private int[][] chessTable;

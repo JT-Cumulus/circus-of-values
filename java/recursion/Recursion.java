@@ -1,3 +1,4 @@
+package recursion;
 public class Recursion {
 
     public int sum(int n){

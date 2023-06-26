@@ -5,6 +5,7 @@ public class Duplicates {
         int[] nums = {1,2,3,1};
         int[] test2 = {1,1,1,3,3,4,3,2,4,2};
 
+        System.out.println(containsDupes(nums));
         System.out.println(containsDupes(test2));
     }
 

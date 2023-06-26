@@ -1,8 +1,15 @@
+import java.util.HashMap;
+import java.util.Map;
+
+import dp.Fibonacci;
+
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {1, -5, 10, 55, 2, 3, -7, 7, 11, 100};
+        Fibonacci fib = new Fibonacci();
+        Map<Integer, Integer> table = new HashMap<>();
+        table.put(0, 1);
+        table.put(1, 1);
 
-        Quickselect quickSelect = new Quickselect(nums);
-        System.out.println(quickSelect.select(4));
+        System.out.println(fib.fibonacciTabulation(12, table));
     }
 }

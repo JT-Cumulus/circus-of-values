@@ -1,15 +1,12 @@
-import java.util.HashMap;
-import java.util.Map;
-
-import dp.Fibonacci;
+import dp.RodCutting;
 
 public class Main {
     public static void main(String[] args) {
-        Fibonacci fib = new Fibonacci();
-        Map<Integer, Integer> table = new HashMap<>();
-        table.put(0, 1);
-        table.put(1, 1);
+        int[] prices = {0, 2, 5, 7, 3, 9};
 
-        System.out.println(fib.fibonacciTabulation(12, table));
+        RodCutting rod = new RodCutting(5, prices);
+
+        rod.solve();
+        rod.show();
     }
 }

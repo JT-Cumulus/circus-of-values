@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Kadane kad = new Kadane();
 
-        int[] n = {1,2,3,4};
+        int[] n = {1,2,-2, 3,4};
         System.out.println(kad.run(n));
     }
 }
